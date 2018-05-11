@@ -1,24 +1,34 @@
-Cat nome_arquivo	!--mostra conteúdo do arquivo
+Cat nome_arquivo	!--mostra conteÃºdo do arquivo
+cal			!--Mostra o calendario
 Cow say			!--programa que simula animais falando
+cp			!--copia arquivos de um lugar para outro
 Mkdir 			!--cria diterorio
 #!/bin/Bash 		!--inicio de cada programa para tornar shell script
 Bash arquivo.sh 	!--executar script
 Chmod +x nome.sh	!--modifica permissao de scripts e pastas 
 				r(read),w(write),x(executar),777(root)
 				+(ativa),-(desabilita),-r(recursivo)
+chown			!--modifica quem criou o arquivo
 nome_variavel=Valor	!--define uma variavel
 $nome_variavel		!--retorna a variavel
 Echo "${var}"		!--imprime o texto
 read nome_variavel	!--valor digitado vai para a variavel
-$1 - - - $9 $		!--argumentos enviados para o .sh na hora de execução
+$1 - - - $9 $		!--argumentos enviados para o .sh na hora de execuÃ§Ã£o
 read nome_variavel	!--usuario insere valor
+ls			!--mostra arquivos
+				-l (mostra mais detalhes)  -a (mostra todos)  
+				-t (ordena por tempo) 
 apt-get update 		!--atualiza todos os pacotes
-Apt-get install nome 	!--instala o pacote e todas as suas dependências
+Apt-get install nome 	!--instala o pacote e todas as suas dependÃªncias
 wget -r -l5 URL		!--baixa da url recursivo(-r) e a profundidade 5(-l5)
-;			!--após um comando o outro será executado
+;			!--apÃ³s um comando o outro serÃ¡ executado
 &&			!--so executa o proximo comando se o anterior for bem sucedido
 adduser joao   		!--cria usuario
 passwd joao    		!--Muda a senha do usuario
 deluser joao	 	!--Remover  usuario
 deluser joao --remove-home --backup 	!--remove usuario , apaga a home(a home permanece caso contrario) e cria um backup
 passwd -l joao   	!--bloqueia o usuario temporariamente
+ssh			!--conecta remotamente
+				-p 33000 (define conexao com a porta 33000)
+scp			!--copia um arquivo de uma mÃ¡quina para outra
+pwd			!--mostra diretorio atual
