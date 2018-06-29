@@ -1,0 +1,9 @@
+Samba
+    Servidor de arquivos;
+    Servidor de impressão;
+    Servidor de autenticação e autorização;
+    Servidor de nomes Windows.
+Comunicar windows linux e mac na mesma rede
+a versao 4 premite:
+	DNS
+	tem interface web
