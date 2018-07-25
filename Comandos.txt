@@ -32,3 +32,10 @@ ssh			!--conecta remotamente
 				-p 33000 (define conexao com a porta 33000)
 scp			!--copia um arquivo de uma máquina para outra
 pwd			!--mostra diretorio atual
+id			!-- retorna informações do usuario
+who			!-- diz quem vc é
+history	N°		!-- retorna os n ultimos comandos utilizados
+|			!-- concatena a saida do arquivo da cireita com a entrada do da direita
+<			!--direciona o arquivo para o 
+>			!--escreve saida do programa no arquivo(sempre apagando o que tinha antes no arquivo)
+>>			!--coloca a saida do programa no final do arquivo
