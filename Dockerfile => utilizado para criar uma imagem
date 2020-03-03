@@ -1,0 +1,14 @@
+Dockerfile => utilizado para criar uma imagem
+	dockerfilte > docker build > imagem
+Imagem => especifica um modelo para o container
+	imagem > docker run > container(temp)
+
+docker run [imagem] -it //comando interativo
+docker run [imagem] -d //segundo plano
+
+docker ps -a //mostra todos os container
+
+Dockerfile
+	run => comando a ser executado em tempo de build
+	cmd => comando a ser executado em tempo de run
+	entrypoint => sempre será executado (build, run, start)
